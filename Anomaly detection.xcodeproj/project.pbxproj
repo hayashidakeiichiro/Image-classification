@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82DFD0672807F85B0019255B /* LViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFD0662807F85B0019255B /* LViewController.swift */; };
+		82ED82D72807BAA600EB9B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED82D62807BAA600EB9B3D /* AppDelegate.swift */; };
+		82ED82D92807BAA600EB9B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED82D82807BAA600EB9B3D /* SceneDelegate.swift */; };
+		82ED82DB2807BAA600EB9B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED82DA2807BAA600EB9B3D /* ViewController.swift */; };
+		82ED82DE2807BAA600EB9B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82ED82DC2807BAA600EB9B3D /* Main.storyboard */; };
+		82ED82E02807BAA800EB9B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82ED82DF2807BAA800EB9B3D /* Assets.xcassets */; };
+		82ED82E32807BAA800EB9B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82ED82E12807BAA800EB9B3D /* LaunchScreen.storyboard */; };
+		82ED82EB2807BAB600EB9B3D /* test2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 82ED82EA2807BAB600EB9B3D /* test2.mlmodel */; };
+		82ED82ED2807BE5D00EB9B3D /* Lcamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED82EC2807BE5D00EB9B3D /* Lcamera.swift */; };
+		82ED82EF2807BE7C00EB9B3D /* Tcamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED82EE2807BE7C00EB9B3D /* Tcamera.swift */; };
+		D7175F9FE544E24FDB2AB145 /* Pods_Anomaly_detection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526BEDB37F948AD6C1D3FC60 /* Pods_Anomaly_detection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24FBB2E558EE9EE5A46F3701 /* Pods-Anomaly detection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anomaly detection.release.xcconfig"; path = "Target Support Files/Pods-Anomaly detection/Pods-Anomaly detection.release.xcconfig"; sourceTree = "<group>"; };
+		526BEDB37F948AD6C1D3FC60 /* Pods_Anomaly_detection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anomaly_detection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BF1A413938B3A019E4A060 /* Pods-Anomaly detection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anomaly detection.debug.xcconfig"; path = "Target Support Files/Pods-Anomaly detection/Pods-Anomaly detection.debug.xcconfig"; sourceTree = "<group>"; };
+		82DFD0662807F85B0019255B /* LViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LViewController.swift; sourceTree = "<group>"; };
+		82ED82D32807BAA600EB9B3D /* Anomaly detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anomaly detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ED82D62807BAA600EB9B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82ED82D82807BAA600EB9B3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82ED82DA2807BAA600EB9B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82ED82DD2807BAA600EB9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82ED82DF2807BAA800EB9B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82ED82E22807BAA800EB9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82ED82E42807BAA800EB9B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82ED82EA2807BAB600EB9B3D /* test2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = test2.mlmodel; sourceTree = "<group>"; };
+		82ED82EC2807BE5D00EB9B3D /* Lcamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lcamera.swift; sourceTree = "<group>"; };
+		82ED82EE2807BE7C00EB9B3D /* Tcamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tcamera.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82ED82D02807BAA600EB9B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7175F9FE544E24FDB2AB145 /* Pods_Anomaly_detection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3692F2071B7C96D69EE00287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62BF1A413938B3A019E4A060 /* Pods-Anomaly detection.debug.xcconfig */,
+				24FBB2E558EE9EE5A46F3701 /* Pods-Anomaly detection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79319C10EF618AD76968CA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526BEDB37F948AD6C1D3FC60 /* Pods_Anomaly_detection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82ED82CA2807BAA600EB9B3D = {
+			isa = PBXGroup;
+			children = (
+				82ED82D52807BAA600EB9B3D /* Anomaly detection */,
+				82ED82D42807BAA600EB9B3D /* Products */,
+				3692F2071B7C96D69EE00287 /* Pods */,
+				79319C10EF618AD76968CA3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82ED82D42807BAA600EB9B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82ED82D32807BAA600EB9B3D /* Anomaly detection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82ED82D52807BAA600EB9B3D /* Anomaly detection */ = {
+			isa = PBXGroup;
+			children = (
+				82ED82EC2807BE5D00EB9B3D /* Lcamera.swift */,
+				82ED82EE2807BE7C00EB9B3D /* Tcamera.swift */,
+				82ED82D62807BAA600EB9B3D /* AppDelegate.swift */,
+				82ED82D82807BAA600EB9B3D /* SceneDelegate.swift */,
+				82ED82DA2807BAA600EB9B3D /* ViewController.swift */,
+				82ED82DC2807BAA600EB9B3D /* Main.storyboard */,
+				82DFD0662807F85B0019255B /* LViewController.swift */,
+				82ED82DF2807BAA800EB9B3D /* Assets.xcassets */,
+				82ED82E12807BAA800EB9B3D /* LaunchScreen.storyboard */,
+				82ED82E42807BAA800EB9B3D /* Info.plist */,
+				82ED82EA2807BAB600EB9B3D /* test2.mlmodel */,
+			);
+			path = "Anomaly detection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82ED82D22807BAA600EB9B3D /* Anomaly detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82ED82E72807BAA800EB9B3D /* Build configuration list for PBXNativeTarget "Anomaly detection" */;
+			buildPhases = (
+				0E59735837F1BE08CD78656F /* [CP] Check Pods Manifest.lock */,
+				82ED82CF2807BAA600EB9B3D /* Sources */,
+				82ED82D02807BAA600EB9B3D /* Frameworks */,
+				82ED82D12807BAA600EB9B3D /* Resources */,
+				D83C3A70409E580862099D49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anomaly detection";
+			productName = "Anomaly detection";
+			productReference = 82ED82D32807BAA600EB9B3D /* Anomaly detection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82ED82CB2807BAA600EB9B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					82ED82D22807BAA600EB9B3D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 82ED82CE2807BAA600EB9B3D /* Build configuration list for PBXProject "Anomaly detection" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82ED82CA2807BAA600EB9B3D;
+			productRefGroup = 82ED82D42807BAA600EB9B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82ED82D22807BAA600EB9B3D /* Anomaly detection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82ED82D12807BAA600EB9B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ED82E32807BAA800EB9B3D /* LaunchScreen.storyboard in Resources */,
+				82ED82E02807BAA800EB9B3D /* Assets.xcassets in Resources */,
+				82ED82DE2807BAA600EB9B3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E59735837F1BE08CD78656F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anomaly detection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83C3A70409E580862099D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anomaly detection/Pods-Anomaly detection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anomaly detection/Pods-Anomaly detection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anomaly detection/Pods-Anomaly detection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82ED82CF2807BAA600EB9B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ED82DB2807BAA600EB9B3D /* ViewController.swift in Sources */,
+				82ED82D72807BAA600EB9B3D /* AppDelegate.swift in Sources */,
+				82ED82D92807BAA600EB9B3D /* SceneDelegate.swift in Sources */,
+				82ED82EB2807BAB600EB9B3D /* test2.mlmodel in Sources */,
+				82ED82ED2807BE5D00EB9B3D /* Lcamera.swift in Sources */,
+				82ED82EF2807BE7C00EB9B3D /* Tcamera.swift in Sources */,
+				82DFD0672807F85B0019255B /* LViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82ED82DC2807BAA600EB9B3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82ED82DD2807BAA600EB9B3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82ED82E12807BAA800EB9B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82ED82E22807BAA800EB9B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82ED82E52807BAA800EB9B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82ED82E62807BAA800EB9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82ED82E82807BAA800EB9B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BF1A413938B3A019E4A060 /* Pods-Anomaly detection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX7MR52686;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Anomaly detection/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ok?";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ok?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ok?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.h.Anomaly-detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82ED82E92807BAA800EB9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FBB2E558EE9EE5A46F3701 /* Pods-Anomaly detection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX7MR52686;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Anomaly detection/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ok?";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ok?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ok?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.h.Anomaly-detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82ED82CE2807BAA600EB9B3D /* Build configuration list for PBXProject "Anomaly detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82ED82E52807BAA800EB9B3D /* Debug */,
+				82ED82E62807BAA800EB9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82ED82E72807BAA800EB9B3D /* Build configuration list for PBXNativeTarget "Anomaly detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82ED82E82807BAA800EB9B3D /* Debug */,
+				82ED82E92807BAA800EB9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82ED82CB2807BAA600EB9B3D /* Project object */;
+}
